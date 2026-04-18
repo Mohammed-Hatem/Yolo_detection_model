@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['green crab', 'joe crab', 'rock crab']
+
+roboflow:
+  workspace: mohamed-hatem-s-workspace
+  project: my-first-project-ykqjd
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohamed-hatem-s-workspace/my-first-project-ykqjd/dataset/2
