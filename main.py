@@ -8,7 +8,7 @@ from ultralytics import YOLO
 
 WEIGHTS_PATH = "/home/mohammed/PycharmProjects/JupyterProject/runs/detect/train4/weights/best.pt"
 TARGET_NAME = "green crab"
-CONF_THRESHOLD = 0.70
+CONF_THRESHOLD = 0.80
 
 
 class CrabCounterApp(QWidget):
